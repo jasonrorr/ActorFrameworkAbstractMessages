@@ -18,9 +18,13 @@ Assuming you already have two actors created, one as the parent and the other as
      
    1. Define the functionality of the message method
       * Make sure to not only create the inputs for the method, but **connect them to the connector pane** of the VI. If this is not done, you may have to rescript these messages in the future, which can be messy.
+      
         ![alt text](https://github.com/jasonrorr/ActorFrameworkAbstractMessages/blob/master/Support/Images/2.png "Connector Pane")
+      
       * In this example, I have a VI that simply displays a message from the nested actor in a message pop-up.
+        
         ![alt text](https://github.com/jasonrorr/ActorFrameworkAbstractMessages/blob/master/Support/Images/3.png "Reference Method Snippet")
+        
 2. Create an abstract message in the sending actor (the nested actor)
    1. In the nested actor, right-click on the .lvclass and go to **Actor Framework»Create Abstract Message for Caller**
       

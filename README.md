@@ -28,6 +28,7 @@ Assuming you already have two actors created, one as the parent and the other as
    1. Once the correct reference method has been selected, click **OK**.
       * Actor Framework will now create all the classes and VIs necessary to flesh out the message for you. Wait until this has completed before clicking on anything else.
    1. Once the VI Scripting has been completed, you should see that the Abstract Messages for Caller virtual folder in your nested actor will now be populated. Expand it to see the newly created abstract message class, with its Send and Read Attributes VI auto-generated.
+   
       ![alt text](https://github.com/jasonrorr/ActorFrameworkAbstractMessages/blob/master/Support/Images/6.png "VI Scripting Complete")
    1. Before moving on, also notice that the Actor Framework’s VI Scripting has also created a Write accessor for your abstract message and added the abstract message’s class to the private member data of your nested actor.
       * In this example, they are located under **Nested.lvclass** and named **Nested.ctl** and **Write Send to Parent Msg.vi**.
